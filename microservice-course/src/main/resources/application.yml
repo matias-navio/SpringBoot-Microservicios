@@ -6,9 +6,9 @@ spring:
   application:
     name: mvc-course
   datasource:
-    driver-class-name: com.postgresql.Driver
+    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/courseDb
-    username: postgre
+    username: postgres
     password: sasa
   jpa:
     hibernate:
